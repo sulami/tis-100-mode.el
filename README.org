@@ -1,0 +1,22 @@
+#+TITLE: tis-100-mode.el
+
+* Introduction
+
+This major mode provides syntax highlighting for TIS-100 assembly. It
+conforms to the publicly released manual and does not include support
+for custom or classified extensions.
+
+Note that ~BAK~ is not highlighted, as it is not useful in code.
+
+* Installation
+
+Simply download =tis-100-mode.el= and load it into Emacs.
+
+* Usage
+
+=M-x tis-100-mode RET=. You can also use a mode line, if you have the
+storage space to spare:
+
+#+begin_src sh
+# -*- mode: tis-100 -*-
+#+end_src
